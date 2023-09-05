@@ -1,0 +1,48 @@
+codename = "jammy"
+arch = "amd64"
+keyserver = "keyserver.ubuntu.com"
+key = "63C46DF0140D738961429F4E204DD8AEC33A7AFF"
+
+[[repos]]
+url = "http://apt.pop-os.org/proprietary"
+components = [ "main" ]
+
+[[repos]]
+url = "http://apt.pop-os.org/release"
+components = [ "main" ]
+
+[[repos]]
+url = "http://apt.pop-os.org/staging/master"
+components = [ "main" ]
+
+[[repos]]
+url = "http://apt.pop-os.org/staging-proprietary"
+components = [ "main" ]
+
+[[repos]]
+url = "http://apt.pop-os.org/staging-ubuntu/master"
+components = [ "main" ]
+
+[[repos]]
+url = "http://apt.pop-os.org/ubuntu"
+components = [ "main", "multiverse", "restricted", "universe" ]
+
+[[repos]]
+url = "http://apt.pop-os.org/ubuntu"
+codename_component = "security"
+components = [ "main", "multiverse", "restricted", "universe" ]
+
+[[repos]]
+url = "http://apt.pop-os.org/ubuntu"
+codename_component = "updates"
+components = [ "main", "multiverse", "restricted", "universe" ]
+
+[[repos]]
+url = "http://apt.pop-os.org/ubuntu"
+codename_component = "backports"
+components = [ "main", "multiverse", "restricted", "universe" ]
+
+[[repos]]
+url = "http://apt.pop-os.org/ubuntu"
+codename_component = "proposed"
+components = [ "main", "multiverse", "restricted", "universe" ]
